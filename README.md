@@ -3,9 +3,14 @@
 This repository will contain my notes and experiments about various artificial intelligence and 
 deep-learning concepts as I learn about them. 
 
-# References
+# Reinforcement Learning
+- [DeepMind's David Silver: Reinforcement Learning Lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
+- [Berkeley CA, Pieter Abbeel: Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+- [Deep RL John Schulman MLSS 2016 - 4 lectures](https://www.youtube.com/playlist?list=PL4dfz4CPlsXOQ9lnBvQITQgQnsIzU35If)
+- [Sutton & Barto, Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
+- [Algorithms for Reinforcement Learning, Csaba Szepesv´ari](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
-Content of this repository will come from the following sources:
+# Other Resources
 
 - [MIT 6.S099: Artificial General Intelligence](https://agi.mit.edu/)
 - [Google's Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/)
