@@ -1,7 +1,7 @@
 # AI Playground
 
-This repository will contain my notes and experiments about various artificial intelligence and 
-deep-learning concepts as I learn about them. 
+This repository will contain my notes and experiments about various artificial intelligence and
+deep-learning concepts as I learn about them.
 
 # Reinforcement Learning
 - [DeepMind's David Silver: Reinforcement Learning Lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
@@ -9,6 +9,14 @@ deep-learning concepts as I learn about them.
 - [Deep RL John Schulman MLSS 2016 - 4 lectures](https://www.youtube.com/playlist?list=PL4dfz4CPlsXOQ9lnBvQITQgQnsIzU35If)
 - [Sutton & Barto, Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [Algorithms for Reinforcement Learning, Csaba Szepesv´ari](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+
+# TensorFlow
+- [CV Tricks: TensorFlow Tutorial: 10 minutes Practical TensorFlow lesson for quick learners](http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/)
+- [Vahidk: Effective TensorFlow](https://github.com/vahidk/EffectiveTensorflow)
+- [Pkmital: TensorFlow Turotials](https://github.com/pkmital/tensorflow_tutorials)
+- [Astorfi: TensorFlow World](https://github.com/astorfi/TensorFlow-World)
+- [Sjcho86: Tensorflow-101](https://github.com/sjchoi86/Tensorflow-101)
+
 
 # Other Resources
 
