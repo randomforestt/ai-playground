@@ -10,6 +10,7 @@ deep-learning concepts as I learn about them.
 - [Sutton & Barto, Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [Algorithms for Reinforcement Learning, Csaba Szepesv´ari](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 - [ShangtongZhang: Reinforcement Learning: An Introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+- [SkyMind: A Beginner's Guide to Deep Reinforcement Learning (Deep RL Summary)](https://skymind.ai/wiki/deep-reinforcement-learning)
 
 # TensorFlow
 - [CV Tricks: TensorFlow Tutorial: 10 minutes Practical TensorFlow lesson for quick learners](http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/)
