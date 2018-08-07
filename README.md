@@ -9,11 +9,12 @@ deep-learning concepts as I learn about them.
 - [Deep RL John Schulman MLSS 2016 - 4 lectures](https://www.youtube.com/playlist?list=PL4dfz4CPlsXOQ9lnBvQITQgQnsIzU35If)
 - [Sutton & Barto, Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 - [Algorithms for Reinforcement Learning, Csaba Szepesv´ari](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+- [ShangtongZhang: Reinforcement Learning: An Introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
 
 # TensorFlow
 - [CV Tricks: TensorFlow Tutorial: 10 minutes Practical TensorFlow lesson for quick learners](http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/)
 - [Vahidk: Effective TensorFlow](https://github.com/vahidk/EffectiveTensorflow)
-- [Pkmital: TensorFlow Turotials](https://github.com/pkmital/tensorflow_tutorials)
+- [Pkmital: TensorFlow Tutotials](https://github.com/pkmital/tensorflow_tutorials)
 - [Astorfi: TensorFlow World](https://github.com/astorfi/TensorFlow-World)
 - [Sjcho86: Tensorflow-101](https://github.com/sjchoi86/Tensorflow-101)
 
