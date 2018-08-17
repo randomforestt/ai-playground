@@ -1,1 +1,1 @@
-# Notes on DeepMind's course by David Silver 
+# Notes on DeepMind's (David Silver) course  
