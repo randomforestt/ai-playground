@@ -10,7 +10,7 @@
 # TensorFlow
 - [CV Tricks: TensorFlow Tutorial: 10 minutes Practical TensorFlow lesson for quick learners](http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/)
 - [Vahidk: Effective TensorFlow](https://github.com/vahidk/EffectiveTensorflow)
-- [Pkmital: TensorFlow Tutotials](https://github.com/pkmital/tensorflow_tutorials)
+- [Pkmital: TensorFlow Tutorials](https://github.com/pkmital/tensorflow_tutorials)
 - [Astorfi: TensorFlow World](https://github.com/astorfi/TensorFlow-World)
 - [Sjcho86: Tensorflow-101](https://github.com/sjchoi86/Tensorflow-101)
 
