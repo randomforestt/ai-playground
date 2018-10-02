@@ -1,3 +1,15 @@
+# TODO: Understand General Adversarial Network
+
+1. [Stefan Hosein - Demystifying General Adversarial Nets (Data Camp)](https://datacamp.com/community/tutorials/generative-adversarial-networks)
+
+2. [An intuitive introduction to Generative Adversarial Networks (Thalles Silva)](https://medium.freecodecamp.org/an-intuitive-introduction-to-generative-adversarial-networks-gans-7a2264a81394)
+
+3. [Skymind: A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
+
+4. [Generative Adversarial Networks (GANs) - Computerphile - Rob Miles](https://www.youtube.com/watch?v=Sw9r8CL98N0&t=67s)
+
+5. [Two Hour Lecture from Fast AI about GANS](http://course.fast.ai/lessons/lesson12.html)
+
 
 # Autoencoders
 - unsupervised machine learning algorithm.
@@ -62,17 +74,6 @@ reconstructs the output from this representation
 
 # Inceptionism
 - Inceptionism is an attempt to make neural networks give up their secrets by showing us what they see. It creates some amazing artwork along the way.
-
-
-# TODO: Understand General Adversarial Network
-
-1. [Stefan Hosein - Demystifying General Adversarial Nets (Data Camp)](https://datacamp.com/community/tutorials/generative-adversarial-networks)
-
-2. [An intuitive introduction to Generative Adversarial Networks (Thalles Silva)](https://medium.freecodecamp.org/an-intuitive-introduction-to-generative-adversarial-networks-gans-7a2264a81394)
-
-3. [Skymind: A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
-
-4. [Generative Adversarial Networks (GANs) - Computerphile - Rob Miles](https://www.youtube.com/watch?v=Sw9r8CL98N0&t=67s)
 
 # TODO: READ
 
