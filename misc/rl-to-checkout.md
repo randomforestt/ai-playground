@@ -1,3 +1,48 @@
+# PRIORITIZE - my self-learning plan to learn reinforcement learning
+
+### Read this series and other medium articles 
+- https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419
+
+### LET’S MAKE A DQN: DOUBLE LEARNING AND PRIORITIZED EXPERIENCE REPLAY
+- https://jaromiru.com/2016/11/07/lets-make-a-dqn-double-learning-and-prioritized-experience-replay/
+
+### 1. Udacity toy problems (code in pytorch??) 
+- Classical dynamic programming algorithms (Frozen Lake Game) 
+- Montecarlo basics (Black Jack)
+- Temporal difference method (Cliff walking, temporal difference method) 
+- https://github.com/udacity/deep-reinforcement-learning
+
+### 2. RL Code Reinforcement learning (code in keras???) 
+- Gridworld toy problem - implement basic algorithms in RL with Keras
+- https://github.com/rlcode/reinforcement-learning
+
+### 3. Udacity with open AI gym (code in pytorch)
+- Try all other remaining problems 
+- https://github.com/udacity/deep-reinforcement-learning
+
+### 4. RL Code reinforcement learning 
+- Check other algorithms for cartpole problems??? with Keras
+- https://github.com/rlcode/reinforcement-learning
+
+### 5. Keras RL (see if you can follow) 
+- https://github.com/keras-rl/keras-rl
+
+### Georgiatech Udacity 
+- https://classroom.udacity.com/courses/ud600
+
+### CHECKOUT: Udemy Course
+- Reinforcement Learning with Pytorch
+- https://www.udemy.com/reinforcement-learning-with-pytorch/
+
+### CHECKOUT: Packt Publishing book 
+- Deep Reinforcement Learning Hands-On Maxim Lapan
+- https://www.packtpub.com/big-data-and-business-intelligence/deep-reinforcement-learning-hands
+- https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On
+
+### Checkout: Faster Reinforcement and Deep Reinforcement Learning using OpenAI Gym and TensorFlow
+- https://github.com/sudharsan13296/Hands-On-Reinforcement-Learning-With-Python
+
+# ------------------------------------------------------------------------------------------------------
 # Reinforcement Learning 
 - Udacity Georia tech course on Reinforcement Learning
 - Read articles on medium about reinforcment learning 
@@ -75,7 +120,7 @@
 - https://github.com/dennybritz/reinforcement-learning
 
 ## Keras RL 
-- https://github.com/keras-rl/keras-rl
+- https://github.com/rlcode/reinforcement-learning
 
 ## Deep RL tensorflow - paper implementations 
 - https://github.com/carpedm20/deep-rl-tensorflow
