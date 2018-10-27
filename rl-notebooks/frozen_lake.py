@@ -1,6 +1,6 @@
 class FrozenLakeState(object):
-    def __init__(self, state_number, env):
-        self.n = state_number
+    def __init__(self, state_id, env):
+        self.n = state_id
         self.env = env
         self.row, self.column = env.n_to_location(self.n)
         self.char = env.n_to_char(self.n)
@@ -48,7 +48,7 @@ class FrozenLakeState(object):
             
     def __repr__(self):
         s = "*FrozenLakeState (TYPE) \n"
-        n = "--> State Number: " + str(self.n) + "\n"
+        n = "--> State ID: " + str(self.n) + "\n"
         r = "--> Reward: " + str(self.reward) + "\n"
 
         t = None
@@ -56,10 +56,12 @@ class FrozenLakeState(object):
             t = "--> A terminal state. \n"
         else:
             t = "--> Not a terminal state. \n"
+        
+        p = "--> (Transition) Probability (given state ID and action): "
         if self.probability is not None:
-            p = "--> (Transition) Probability (given state_number and action): " + str(self.probability) + "\n"
+            p += str(self.probability) + "\n"
         else:
-            p = "--> Transition probability is not yet defined \n"
+            p += "--> not yet defined \n"
         
         i = "--> Icon: " + self.icon + "\n"
         c = "--> Character representation of state condition: '" + self.char + "'\n"
@@ -67,6 +69,7 @@ class FrozenLakeState(object):
         
         final = "\n" + s + n + r + t + p + i + c + l + "\n"
         return final 
+
     
 class SlipperyFrozenLake(object):
     def __init__(self, my_map):
@@ -78,7 +81,7 @@ class SlipperyFrozenLake(object):
         self.reward = {'S': 0.0, 'F': 0.0, 'H': 0.0, 'G': 1.0}
         self.is_terminal = {'S': False, 'F': False, 'H': True, 'G': True}
         self.icons = {'S': '👩', 'F': '▫️', 'H': '💥', 'G': '🎯'}
-        self.actions = ['up', 'down', 'left', 'right']
+        self.actions = ['left', 'down', 'right', 'up']
         self.n_map = []
         
         for row in range(self.rows):
@@ -99,13 +102,31 @@ class SlipperyFrozenLake(object):
     def location_to_n(self, row, column):
         return row * self.rows + column
     
-    def get_possibilities(self, state_number, action, debug=False):
-        
-        n = state_number
+    def transition_check(self, n, action):        
         if action not in self.actions: 
             raise ValueError("error: invalid action", action)
         if n >= self.number_of_states: 
-            raise ValueError("error: invalid state", n)
+            raise ValueError("error: invalid state ID", n)
+    
+    @staticmethod
+    def print_transition_debug(n, action, possibilities):
+        print("***")
+        print('From state ID: ', n, ' do action: ', action, "!")
+        print("***")
+            
+        for i, state in enumerate(possibilities): 
+            print()
+            print("#", i + 1)
+            print('--> next state ID: ',state.n)
+            print('--> reward:', state.reward)
+            print('--> probability: ', state.probability)
+            print('--> is terminal: ', state.is_terminal)
+            print()
+
+    def get_possibilities(self, state_id, action, debug=False):
+        
+        n = state_id
+        self.transition_check(n, action)
         
         state = FrozenLakeState(n, self)
         possibilities = state.next_possible_states(action)
@@ -114,19 +135,8 @@ class SlipperyFrozenLake(object):
         for state in possibilities:
             state.probability = probability
             
-        if debug:
-            print("***")
-            print('From state: ', n, ' do action: ', action, "!")
-            print("***")
-            
-            for i, state in enumerate(possibilities): 
-                print()
-                print("#", i + 1)
-                print('--> next state: ',state.n)
-                print('--> reward:', state.reward)
-                print('--> probability: ', state.probability)
-                print('--> is terminal: ', state.is_terminal)
-                print()
+        if debug is True:
+            SlipperyFrozenLake.print_transition_debug(n, action, possibilities)
 
         return possibilities 
 
