@@ -1,6 +1,6 @@
 # FROZEN LAKE
 
-- Basic Reinforcemen Learning Principles 
+- Basic Reinforcement Learning Principles 
   - [Link: Josh Greaves: Understanding RL: The bellman equations.](https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/)
   - [Video: David Silver: Markov Decision Process](https://www.youtube.com/watch?v=lfHX2hHRMVQ/)
 
