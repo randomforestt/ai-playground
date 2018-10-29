@@ -1,6 +1,10 @@
 # FROZEN LAKE
 
-- Dynamic Programming references
+- Basic Reinforcemen Learning Principles 
+  - [Link: Josh Greaves: Understanding RL: The bellman equations.](https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/)
+  - [Video: David Silver: Markov Decision Process](https://www.youtube.com/watch?v=lfHX2hHRMVQ/)
+
+- Dynamic Programming References
   - [Udacity: Dynamic Programming](https://github.com/udacity/deep-reinforcement-learning/tree/master/dynamic-programming)
   - [David Silver Lecture](https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9)
 
