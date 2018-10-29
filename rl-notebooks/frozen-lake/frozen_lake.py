@@ -102,9 +102,12 @@ class SlipperyFrozenLake(object):
     def location_to_n(self, row, column):
         return row * self.rows + column
     
-    def transition_check(self, n, action):        
+    def transition_check(self, n, action):         
         if action not in self.actions: 
             raise ValueError("error: invalid action", action)
+        
+        if type(n) is not type(4):
+            raise ValueError("Not an integer", n)
         if n >= self.number_of_states: 
             raise ValueError("error: invalid state ID", n)
     
