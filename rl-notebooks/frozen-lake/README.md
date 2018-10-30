@@ -18,4 +18,4 @@
   - I understand that having a handful of related functions in order to make a value iteration or policy iteration function is not that ideal. I should have made a class that fulfills this responsibility. I'll create classes that would incorporate this in a later time. 
   
  - REMINDER:
-  - There are no close-form solution to get the optimal policy, dynamic programming seems to be an approximate solution as judging from the resulting final state values and final action values and doing it by hand seems that some states did not get the best corresponding values.
+   - There are no close-form solution to get the optimal policy, dynamic programming seems to be an approximate solution as judging from the resulting final state values and final action values and doing it by hand seems that some states did not get the best corresponding values.
